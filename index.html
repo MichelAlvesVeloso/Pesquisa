@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quero Doar</title>
+    <link rel="stylesheet" href="../template/reset.css" />
+    <link rel="stylesheet" href="../template/index.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-superior">
+        <a href="../home/index.html"
+          ><img src="../icons/logo.png" alt="" class="logo"
+        /></a>
+
+        <menu class="menu-principal">
+          <li><a href="../home/index.html">Home</a></li>
+          <li><a href="../atividades/index.html">Atividades</a></li>
+          <li><a href="../notificacoes/index.html">Notificações</a></li>
+          <li><a href="../menuContas/index.html">Conta</a></li>
+        </menu>
+
+        <menu class="menu-doar-pedir">
+          <li><a href="../doar/index.html">Doar</a></li>
+          <!-- <li><a href="../pedir/index.html">Pedir</a></li> -->
+        </menu>
+
+        <menu class="menu-entrar">
+          <li><a href="../login/index.html">Entrar</a></li>
+        </menu>
+
+        <img
+          src="../icons/burguer-menu.png"
+          alt=""
+          class="burguer-menu"
+          onclick="burguerMenu()"
+        />
+      </div>
+      <div class="header-inferior">
+        <menu class="menu-principal">
+          <li><a href="../home/index.html">Home</a></li>
+          <li><a href="../atividades/index.html">Atividades</a></li>
+          <li><a href="../notificacoes/index.html">Notificações</a></li>
+          <li><a href="../menuContas/index.html">Conta</a></li>
+        </menu>
+      </div>
+    </header>
+    <main>
+      <form id="formulario">
+        <h1>Filtros de Pesquisa</h1>
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" />
+
+        <div style="display: none;">
+          <div>
+            <input type="checkbox" id="doar" name="doar" value="doar" />
+            <label for="doar">Doação</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="pedir" name="pedir" value="pedir" />
+            <label for="pedir">Pedidos</label>
+          </div>
+        </div>
+
+        <label for="UF">Estado:</label>
+        <select name="UF" id="UF" onchange="alteradoUF()"></select>
+
+        <label for="municipio">Município:</label>
+        <select name="municipio" id="municipio"></select>
+
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro" />
+
+        <button type="submit">Pesquisar</button>
+      </form>
+    </main>
+    <footer>
+      <h3>Copyright © 2024 Quero Doar | Todos os direitos reservados.</h3>
+      <div id="logado"></div>
+    </footer>
+    <script src="../template/index.js" type="text/javascript"></script>
+    <script src="./index.js" type="text/javascript"></script>
+  </body>
+</html>
