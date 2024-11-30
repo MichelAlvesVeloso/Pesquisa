@@ -1,0 +1,60 @@
+# Registro de Testes de Software
+
+
+Os testes funcionais realizados na aplicação web são descritos a seguir.
+
+CT-01: Verificar o funcionamento dos links da página Home.
+
+Responsável: Michel.
+
+https://github.com/user-attachments/assets/327a63fd-92f0-41b6-a2d3-debe5d4282e0
+
+CT-02: O sistema deve permitir o cadastro de itens para doação.
+
+Responsável: Michel.
+
+Na imagem abaixo registra o cadastro de uma doação.
+
+![image](https://github.com/user-attachments/assets/9288c122-cc33-49d8-9245-aef3c68e26db)
+
+Confirmação da doação.
+
+![image](https://github.com/user-attachments/assets/c4b9d2b2-050b-4ed2-8a2d-a48b2a33cf24)
+
+
+CT-03: Verificar o funcionamento do filtro de pesquisa.
+
+Responsável: Michel.
+
+Na imagem abaixo, podemos ver a pesquisa de uma cadeira e a localização onde o mesmo sera pedido.
+
+![image](https://github.com/user-attachments/assets/2e091cbe-966f-41e2-9174-47cc837b2eb3)
+
+Filtros como categoria, localização e condição do item:
+
+![image](https://github.com/user-attachments/assets/d9909e33-3e18-4c3c-b0ab-9d37add551cf)
+
+CT-04:  O sistema deve apresentar uma área onde as atividades do usuário são registradas.
+
+Responsável: Michel.
+
+Abaixo podemos ver os registro da atividade do usuário.
+
+![image](https://github.com/user-attachments/assets/e05991c7-5767-48cd-9641-909bbcc8022f)
+
+
+CT-05: O sistema deve apresentar uma área onde as notificações estarão registradas.
+
+Responsável: Michel.
+
+Na imagem abaixo,podemos ver o registro das notiicações do usuário na pratica.
+
+![image](https://github.com/user-attachments/assets/2af1dfd4-bb0e-4498-9eef-534e14f75abb)
+
+CT-06: O sistema deve possuir uma área onde a conta do usuário poderá ser gerida.
+
+Responsável: Michel.
+
+As informações do usuário cadastrado no LocalStorage
+
+![image](https://github.com/user-attachments/assets/d9db9c2d-331e-4571-803c-9ddd0df09188)
