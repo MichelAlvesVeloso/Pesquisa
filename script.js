@@ -1,4 +1,4 @@
-// Simulação de dados em JSON
+
 const data = {
     "estados": [
         {
